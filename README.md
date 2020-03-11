@@ -1,4 +1,10 @@
-# Python-Template
+# Bitwarden-rs-manager
+
+Start command:
+
+```bash
+docker run -d --name bitwarden_rs -e DOMAIN=<https://vault.arulsamy.me> -v /bw-data/:/data/ -p 8881:80 bitwardenrs/server:latest
+```
 
 ## Support
 
